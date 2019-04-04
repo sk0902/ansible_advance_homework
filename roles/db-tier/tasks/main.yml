@@ -24,4 +24,4 @@
   service:
    name: postgresql.service
    state: started
-  enabled: true
+   enabled: true
