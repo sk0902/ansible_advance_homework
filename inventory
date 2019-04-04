@@ -1,0 +1,10 @@
+[bastion_tower]
+bastion.dfd5.example.opentlc.com
+
+[workstation]
+workstation-254e.rhpds.opentlc.com
+
+[all:vars]
+ansible_user=sikandar.khan-enterpriseit.co.nz
+ansible_ssh_private_key_file=/root/.ssh/mykey.pem
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'

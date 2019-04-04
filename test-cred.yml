@@ -1,0 +1,3 @@
+---
+username: cloud-user
+ssh_key_data: /root/.ssh/openstack.pem
