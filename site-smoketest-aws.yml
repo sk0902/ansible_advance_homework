@@ -1,6 +1,7 @@
 - hosts: frontends
   gather_facts: false
   tasks:
+  - name: Smoke test
     uri:
      url: "http://{{ item }}"
      return_content: yes
