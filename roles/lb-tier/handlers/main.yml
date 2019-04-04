@@ -4,4 +4,4 @@
 - name: restart_haproxy
   service:
     name: "{{ package }}"
-  state: restarted
+    state: restarted
